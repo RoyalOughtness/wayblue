@@ -19,6 +19,11 @@
                   "keyType": "GPGKeys",
                   "keyPath": "/etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release"
               }
+          ],
+          "": [
+             {
+                  "type": "insecureAcceptAnything"
+              }
           ]
       }
   }
