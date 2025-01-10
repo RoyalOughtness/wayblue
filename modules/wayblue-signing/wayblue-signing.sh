@@ -24,7 +24,7 @@ if ! [ -d "/etc/pki/containers" ]; then
 fi
 
 if ! [ -f "$CONTAINER_DIR/policy.json" ]; then
-    cp "$MODULE_DIRECTORY/signing/policy.json" "$CONTAINER_DIR/policy.json"
+    cp "$MODULE_DIRECTORY/wayblue-signing/policy.json" "$CONTAINER_DIR/policy.json"
 fi
 
 cp "/etc/pki/containers/$IMAGE_NAME.pub" "/etc/pki/containers/$IMAGE_REGISTRY_TITLE.pub"
